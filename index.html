@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="display">
+            <input type="text" class="input" placeholder="Calculate here..">
+        </div>
+        <div class="firstRow">
+            <div class="fonts">
+                <button class="seven" onclick="handleButtonClick(7)">7</button>
+                <button class="eight" onclick="handleButtonClick(8)">8</button>
+                <button class="nine" onclick="handleButtonClick(9)">9</button>
+                <button class="delete" onclick="handleDeleteClick()">Delete</button>
+            </div>
+            
+        </div>
+        <div class="secondRow">
+            <div class="fonts">
+                <button class="four" onclick="handleButtonClick(4)">4</button>
+                <button class="five" onclick="handleButtonClick(5)">5</button>
+                <button class="six" onclick="handleButtonClick(6)">6</button>
+                <button class="plus" onclick="handlePlusClick()">+</button>
+            </div>
+          
+        </div>
+        <div class="thirdRow">
+            <div class="fonts">
+                <button class="one" onclick="handleButtonClick(1)">1</button>
+                <button class="two" onclick="handleButtonClick(2)">2</button>
+                <button class="three" onclick="handleButtonClick(3)">3</button>
+                <button class="minus" onclick="handleMinusClick()">-</button>
+            </div>
+            
+        </div>
+        <div class="fourthRow">
+            <div class="fonts">
+                <button class="dot" onclick="handleDotClick()">.</button>
+                <button class="zero" onclick="handleButtonClick(0)">0</button>
+                <button class="divide" onclick="handleDivideClick()">/</button>
+                <button class="multiply" onclick="handleMultiplyClick()">X</button>
+            </div>
+            
+        </div>
+        <div class="fifthRow">
+            <div class="fonts">
+                <button class="reset" onclick="handleResetClick()">RESET</button>
+                <button class="equals" onclick="handleEqualsClick()">EQUALS</button>
+            </div>
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
